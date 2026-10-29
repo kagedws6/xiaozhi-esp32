@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-27",
+  "source_commit": "c435f99a88066029ec2dbd2d758c8cc9d051565b",
+  "project_version": "2.5.3",
+  "board": "waveshare/esp32-s3-audio-board",
+  "variant": "esp32-s3-audio-board",
+  "idf": "6.0.2",
+  "language": "en-US",
+  "wake_word": "wn9_hiesp",
+  "flash_capacity": 16777216,
+  "app_bytes": 2648144,
+  "app_partition_bytes": 4128768,
+  "merged_bytes": 9603329,
+  "merged_sha256": "94ee80bc904360aa82488becd7ee5f3f2ab059d951a9a9db0e29ac2a461ff803",
+  "application_source_modified": false,
+  "image_validation": "checksum and validation hash valid",
+  "original_backup": "complete 16MB, private, device digest matched",
+  "hardware_test": {
+    "flash": "written-data hash verified",
+    "boot_capture_seconds": 40,
+    "boot_markers": 1,
+    "panic_or_abort": false,
+    "audio_codec": "ES8311/ES7210 initialized",
+    "wifi_setup": "access point and configuration portal started",
+    "speaker_audible": "Owner confirmed setup speech and spoken answer; restart prompt not separately confirmed",
+    "microphone_and_wake_word": "Owner confirmed Hi ESP wake and an audible answer to What can you do?",
+    "home_wifi_and_service_activation": "Wi-Fi saved, reconnected after reset, service activation done, state idle",
+    "camera": "voice board camera absent; detection errors did not prevent setup",
+    "wake_engine": "AFE and wn9_hiesp initialized",
+    "voice_exchange": "passed one owner-observed interaction on 2026-10-27",
+    "remaining_checks": [
+      "Wake range and microphone quality",
+      "Motor-noise performance",
+      "Extended reliability",
+      "Rover-control integration"
+    ]
+  }
+}
